@@ -12,5 +12,5 @@ Fluent theme for spicetify based on theme by williamckha
 / INSTALLATION /
 
 1. Download the files
-2. Cut and paste on themes folder
+2. Cut and paste into the .spicetify folder
 3. Open Terminal and exec spicetify apply
