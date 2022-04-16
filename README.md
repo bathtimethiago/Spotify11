@@ -1,6 +1,6 @@
 # Fluent for Spicetify
 
-Patch for fluent theme by williamckha
+A fluent theme based on theme by williamckha
 
 / FEATURES /
 
