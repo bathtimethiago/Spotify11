@@ -1,1 +1,1 @@
-# fluent-for-spicetify
+# Fluent for Spicetify
