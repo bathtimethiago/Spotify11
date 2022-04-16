@@ -1,6 +1,6 @@
 # Fluent for Spicetify
 
-Fluent theme for spicetify based on theme by williamckha
+Patch for fluent theme by williamckha
 
 / FEATURES /
 
