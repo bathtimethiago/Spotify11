@@ -1163,7 +1163,9 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 .main-playlistEditDetailsModal-titleInput:focus,
 .main-playlistEditDetailsModal-descriptionTextarea:focus,
 .playlist-inlineSearchBox-filterInput {
-  background-color: var(--spice-card);
+  background-color: var(--spice-setting-button) !important;
+  border-color: var(--spice-setting-button-border);
+  border-bottom: var(--spice-setting-button-border-bottom) solid 2px;
 }
 
 .profile-userEditDetails-nameInput,
@@ -1175,7 +1177,9 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 .main-playlistEditDetailsModal-descriptionTextarea:focus,
 .profile-userEditDetails-textElement:focus,
 .playlist-inlineSearchBox-filterInput:focus {
-  border: 1px solid var(--spice-button-active) !important;
+  border-color: var(--spice-setting-button-active-border);
+  background-color: var(--spice-setting-button-active) !important;
+  border-bottom: var(--spice-accent) solid 2px;
 }
 
 .playlist-inlineSearchBox-filterInput {
