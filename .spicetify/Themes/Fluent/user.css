@@ -1143,6 +1143,12 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   display: none;
 }
 
+.oq1ci28WPaRsWkvRiB_J,
+.Ws8Ec3GREpT5PAUesr9b,
+.CmkY1Ag0tJDfnFXbGgju {
+  border-radius: var(--border-radius-2) !important;
+}
+
 .main-trackCreditsModal-container,
 .main-aboutRecsModal-container,
 .main-playlistEditDetailsModal-container,
