@@ -1,4 +1,4 @@
-# Fluent for Spicetify
+# Fluent for Spicetify BETA
 
 A fluent theme based on theme by williamckha
 
