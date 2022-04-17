@@ -1154,43 +1154,28 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 .main-playlistEditDetailsModal-container,
 .profile-userEditDetails-container,
 .artist-artistAbout-modal {
-  background-color: var(--spice-main) !important;
+  background-color: var(--spice-card) !important;
   border-radius: var(--border-radius-1) !important;
 }
 
 .main-playlistEditDetailsModal-titleInput,
 .main-playlistEditDetailsModal-descriptionTextarea,
-.main-playlistEditDetailsModal-titleInput:focus,
-.main-playlistEditDetailsModal-descriptionTextarea:focus,
+.profile-userEditDetails-textElement,
+.profile-userEditDetails-nameInput,
 .playlist-inlineSearchBox-filterInput {
   background-color: var(--spice-setting-button) !important;
   border-color: var(--spice-setting-button-border);
   border-bottom: var(--spice-setting-button-border-bottom) solid 2px;
 }
 
-.profile-userEditDetails-nameInput,
-.profile-userEditDetails-textElement:focus {
-  background: var(--spice-card) !important;
-}
-
 .main-playlistEditDetailsModal-titleInput:focus,
 .main-playlistEditDetailsModal-descriptionTextarea:focus,
+.profile-userEditDetails-nameInput:focus,
 .profile-userEditDetails-textElement:focus,
 .playlist-inlineSearchBox-filterInput:focus {
   border-color: var(--spice-setting-button-active-border);
   background-color: var(--spice-setting-button-active) !important;
   border-bottom: var(--spice-accent) solid 2px;
-}
-
-.playlist-inlineSearchBox-filterInput {
-  border: 1px solid var(--spice-card);
-}
-
-.main-playlistEditDetailsModal-titleInput,
-.main-playlistEditDetailsModal-descriptionTextarea,
-.profile-userEditDetails-nameInput,
-.playlist-inlineSearchBox-filterInput {
-  border-radius: var(--border-radius-2) !important;
 }
 
 .profile-userEditDetails-labelText:before {
