@@ -2,7 +2,7 @@
 
 A fluent theme based on theme by williamckha
 
-![preview](https://user-images.githubusercontent.com/88913489/163699142-2d815554-9aa8-4654-b54d-5c1987b18694.png)
+![preview](https://user-images.githubusercontent.com/88913489/163699178-130b7980-0256-42f9-a741-c9c85ca71ad1.png)
 
 
 / FEATURES /
