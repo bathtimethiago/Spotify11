@@ -543,6 +543,43 @@ button.switch {
   border-bottom: var(--spice-main-button-active-border) solid 1px !important;
 }
 
+.fBTYgGyvIbHizHIj7AAX,
+.aAr9nYtPsG7P2LRzciXc {
+  background-color: var(--spice-main-button);
+  border-top: var(--spice-main-button-border-top) solid 1px !important;
+  border-left: var(--spice-main-button-border) solid 1px !important;
+  border-right: var(--spice-main-button-border) solid 1px !important;
+  border-bottom: var(--spice-main-button-border) solid 1px !important;
+  color: var(--spice-text);
+}
+
+.fBTYgGyvIbHizHIj7AAX:hover,
+.aAr9nYtPsG7P2LRzciXc:hover {
+  background-color: var(--spice-main-button-active);
+  border-top: var(--spice-main-button-active-border-top) solid 1px !important;
+  border-left: var(--spice-main-button-active-border) solid 1px !important;
+  border-right: var(--spice-main-button-active-border) solid 1px !important;
+  border-bottom: var(--spice-main-button-active-border) solid 1px !important;
+}
+
+.zHeo4VUxytwm6Ptr0QyA,
+.MQQEonum615k8mGkliT_,
+.uaw7z8qx62T3ewBrI3_D {
+  background: none;
+  color: var(--spice-text);
+}
+
+.zHeo4VUxytwm6Ptr0QyA:hover,
+.MQQEonum615k8mGkliT_:hover,
+.uaw7z8qx62T3ewBrI3_D:hover {
+  border-radius: 4px !important;
+  background-color: #c42b1c;
+  border-top: 1px solid #c93d2f;
+  border-left: 1px solid #c73a2c;
+  border-right: 1px solid #c4392c;
+  border-bottom: 1px solid #ac281b
+}
+
 .main-entityHeader-titleButton {
   background: none !important;
 }
@@ -554,27 +591,6 @@ button.switch {
 
 .x-carousel-button svg {
   fill: var(--spice-text) !important;
-}
-
-.uaw7z8qx62T3ewBrI3_D {
-  display: none;
-}
-
-.aAr9nYtPsG7P2LRzciXc {
-  background-color: var(--spice-main-button);
-  border-top: var(--spice-main-button-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-border) solid 1px !important;
-  border-right: var(--spice-main-button-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-border) solid 1px !important;
-  color: var(--spice-text);
-}
-
-.aAr9nYtPsG7P2LRzciXc:hover {
-  background-color: var(--spice-main-button-active);
-  border-top: var(--spice-main-button-active-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-active-border) solid 1px !important;
-  border-right: var(--spice-main-button-active-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-active-border) solid 1px !important;
 }
 
 /* sidebar */
@@ -769,7 +785,7 @@ button.switch {
 
 .main-trackList-indexable .main-virtualScrollList-wrapper,
 .main-trackList-indexable .main-rootlist-wrapper {
-  background-color: var(--spice-card);
+  background-color: var(--spice-accent);
   border-radius: var(--border-radius-2);
   padding: 8px;
 }
@@ -1169,15 +1185,6 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   border-radius: var(--border-radius-2) !important;
 }
 
-.main-trackCreditsModal-container,
-.main-aboutRecsModal-container,
-.main-playlistEditDetailsModal-container,
-.profile-userEditDetails-container,
-.artist-artistAbout-modal {
-  background-color: var(--spice-dialog) !important;
-  border-radius: var(--border-radius-1) !important;
-}
-
 .dMhJaxli87_22jb_3d9x,
 .main-playlistEditDetailsModal-titleInput,
 .main-playlistEditDetailsModal-descriptionTextarea,
@@ -1199,13 +1206,14 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 .dMhJaxli87_22jb_3d9x::placeholder,
 .main-playlistEditDetailsModal-titleInput::placeholder,
 .main-playlistEditDetailsModal-descriptionTextarea::placeholder {
-  color: var(--spice-text);
+  color: var(--spice-subtext);
 }
 
 .profile-userEditDetails-labelText:before {
   bottom: 8px !important;
 }
 
+.rosHlzYfiO0UfpmOhP4I,
 .wvLAEV5wF5C5ej6rvimT {
   display: none;
 }
@@ -1217,9 +1225,26 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   border-radius: var(--border-radius-2);
 }
 
+._EShSNaBK1wUIaZQFJJQ,
+.CmkY1Ag0tJDfnFXbGgju,
+._GJZaoUD9ozPvCUDT2Mp,
+.mMx2LUixlnN_Fu45J {
+  border-radius: var(--border-radius-2);
+}
 
 /* dialogs */
 
+.XwNfIrI6_hCa_9_T2cQB,
+.main-trackCreditsModal-container,
+.main-aboutRecsModal-container,
+.main-playlistEditDetailsModal-container,
+.profile-userEditDetails-container,
+.artist-artistAbout-modal {
+  background-color: var(--spice-dialog) !important;
+  border-radius: var(--border-radius-1) !important;
+}
+
+.K8PtC1Way9XetxDGwCGx,
 .main-deletePlaylistDialog-container,
 .main-deleteFolderDialog-container {
   background-color: var(--spice-dialog);
@@ -1426,7 +1451,7 @@ option {
 
 .iUSAh1wdhXLk9hHSbkCA:after,
 .main-connectBar-connectBar:after {
-  display: none !important;
+  display: none;
 }
 
 .main-connectBar-connectBar .icon, 
