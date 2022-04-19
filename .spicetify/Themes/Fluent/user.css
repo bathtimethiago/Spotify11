@@ -390,16 +390,18 @@ h3,
 }
 
 .main-collectionLinkButton-collectionLinkButton[href="/collection/tracks"] {
-  display: none;
+  background: linear-gradient(135deg,#450af5,#c4efd9) !important;
+  border-radius: var(--border-radius-2);
 }
 
 .main-collectionLinkButton-collectionLinkButton[href="/collection/episodes"] {
   background-color: #006450 !important;
+  border-radius: var(--border-radius-2);
 }
 
 .main-collectionLinkButton-collectionLinkButton[href="/collection/tracks"] .main-collectionLinkButton-icon {
   -webkit-mask-image: url('./fluentui-system-icons/ic_fluent_heart_24_filled.svg');
-  background-color: red !important;
+  background-color: #FFFFFF !important;
   margin-right: 0px;
 }
 
@@ -558,6 +560,22 @@ button.switch {
   display: none;
 }
 
+.aAr9nYtPsG7P2LRzciXc {
+  background-color: var(--spice-main-button);
+  border-top: var(--spice-main-button-border-top) solid 1px !important;
+  border-left: var(--spice-main-button-border) solid 1px !important;
+  border-right: var(--spice-main-button-border) solid 1px !important;
+  border-bottom: var(--spice-main-button-border) solid 1px !important;
+  color: var(--spice-text);
+}
+
+.aAr9nYtPsG7P2LRzciXc:hover {
+  background-color: var(--spice-main-button-active);
+  border-top: var(--spice-main-button-active-border-top) solid 1px !important;
+  border-left: var(--spice-main-button-active-border) solid 1px !important;
+  border-right: var(--spice-main-button-active-border) solid 1px !important;
+  border-bottom: var(--spice-main-button-active-border) solid 1px !important;
+}
 
 /* sidebar */
 
@@ -736,10 +754,7 @@ button.switch {
 }
 
 .main-rootlist-statusIcons {
-  margin-inline-start: -20px;
-  position: relative;
-  right: 20px !important;
-  top: -4px;
+  display: none !important;
 }
 
 .main-rootlist-statusIcons>button {
@@ -776,11 +791,11 @@ button.switch {
 }
 
 .main-trackList-trackListRow:hover {
-  background-color: rgba(var(--spice-rgb-selected-row), .05);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
 }
 
 .main-trackList-trackListRow:active {
-  background-color: rgba(var(--spice-rgb-selected-row), .1);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
 }
 
 .main-trackList-trackListRow.main-trackList-selected,
@@ -929,11 +944,11 @@ button.switch {
 }
 
 .artist-artistOffers-item:hover {
-  background-color: rgba(var(--spice-rgb-selected-row), .05) !important;
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3) !important;
 }
 
 .artist-artistOffers-item:active {
-  background-color: rgba(var(--spice-rgb-selected-row), .1) !important;
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5) !important;
 }
 
 .main-entityHeader-background, .wQi0raQMEJJrELuj_2FP._dsx4Y9jukDHLzhl7bQb {
@@ -965,11 +980,11 @@ button.switch {
 }
 
 .show-episodeBlock-episodeBlock:hover {
-  background-color: rgba(var(--spice-rgb-selected-row), .05);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
 }
 
 .show-episodeBlock-episodeBlock:active {
-  background-color: rgba(var(--spice-rgb-selected-row), .1);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
 }
 
 .show-show-episodes> :last-child {
@@ -1013,7 +1028,7 @@ button.switch {
 /* tab bars */
 
 a[class*='-tabBar-active'] {
-  background-color: rgba(var(--spice-rgb-selected-row), 1) !important;
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5) !important;
 }
 
 a[class*='-tabBar-headerItemLink']:hover {
@@ -1370,6 +1385,7 @@ option {
 
 .connect-device-list-item {
   margin: 0 8px;
+  background-color: var(--spice-contextmenu);
   border-radius: var(--border-radius-2);
   width: -webkit-fill-available;
 }
@@ -1380,7 +1396,7 @@ option {
 
 .connect-device-list-item:focus,
 .connect-device-list-item:hover {
-  background-color: rgba(var(--spice-rgb-selected-row), 0.05);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
 }
 
 .connect-title,
@@ -1402,7 +1418,7 @@ option {
   width: fit-content;
   padding: 8px;
   position: absolute;
-  right: 28px;
+  right: 13px;
   bottom: 112px;
   color: var(--spice-subtext) !important;
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1) !important;
@@ -1591,25 +1607,28 @@ option {
   height: 200px;
 }
 
-.CoverSlotExpanded__actionButton,
-.main-coverSlotCollapsed-expandButton,
-.kyn0AY4_gXWvbdivdFgP {
+.CoverSlotExpanded__actionButton:hover,
+.CoverSlotExpanded__actionButton:focus,
+.CoverSlotExpanded__actionButton{
   border-radius: var(--border-radius-2);
-  background-color: var(--spice-main-button);
-  border-top: var(--spice-main-button-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-border) solid 1px !important;
-  border-right: var(--spice-main-button-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-border) solid 1px !important;
+  height: 200px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  background: none;
+  color: transparent;
 }
 
-.CoverSlotExpanded__actionButton:hover,
 .main-coverSlotCollapsed-expandButton:hover,
-.kyn0AY4_gXWvbdivdFgP:hover {
-  background-color: var(--spice-main-button-active);
-  border-top: var(--spice-main-button-active-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-active-border) solid 1px !important;
-  border-right: var(--spice-main-button-active-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-active-border) solid 1px !important;
+.main-coverSlotCollapsed-expandButton:focus,
+.main-coverSlotCollapsed-expandButton {
+  border-radius: var(--border-radius-2);
+  height: 60px;
+  width: 60px;
+  left: -2px;
+  top: -2px;
+  background: none;
+  color: transparent;
 }
 
 .now-playing-bar .cover-art-image {
