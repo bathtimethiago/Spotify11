@@ -2,7 +2,7 @@
 
 A fluent theme based on theme by williamckha
 
-![preview](https://user-images.githubusercontent.com/88913489/164322052-5112c318-b3b0-498e-a395-b8023a8aa7aa.png)
+![preview](https://user-images.githubusercontent.com/88913489/164322770-a261a8cd-ecfd-4b23-9feb-15b517bdd8ce.png)
 
 
 / FEATURES /
@@ -11,6 +11,7 @@ A fluent theme based on theme by williamckha
 - Visual bugs fix
 - New most legit theme for W11
 - More customizable
+
 
 / INSTALLATION /
 
