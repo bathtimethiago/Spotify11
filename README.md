@@ -24,3 +24,4 @@ spicetify config color_scheme dark
 spicetify apply
 
 >texte
+>    spicetify config current_theme Fluent
