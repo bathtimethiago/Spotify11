@@ -1066,7 +1066,6 @@ a[class*='-tabBar-headerItemLink']:active {
   border-radius: var(--border-radius-2) !important;
   padding-right: 0px;
   padding-left: 12px;
-  transition: background-color ease-in 167ms;
 }
 
 .x-searchInput-searchInputInput:focus, 
@@ -1111,7 +1110,7 @@ a[class*='-tabBar-headerItemLink']:active {
 .x-searchInput-searchInputClearButton {
   margin-left: 5px;
   margin-right: 12px;
-  height: 20px;
+  height: 25px;
 }
 
 .x-searchInput-searchInputClearButton:focus {
@@ -1179,6 +1178,10 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   display: none;
 }
 
+._T5UDP2tItG9WGdwO5Yi {
+  display: none;
+}
+
 .oq1ci28WPaRsWkvRiB_J,
 .Ws8Ec3GREpT5PAUesr9b,
 .CmkY1Ag0tJDfnFXbGgju {
@@ -1209,10 +1212,6 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   color: var(--spice-subtext);
 }
 
-.profile-userEditDetails-labelText:before {
-  bottom: 8px !important;
-}
-
 .rosHlzYfiO0UfpmOhP4I,
 .wvLAEV5wF5C5ej6rvimT {
   display: none;
@@ -1230,6 +1229,14 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 ._GJZaoUD9ozPvCUDT2Mp,
 .mMx2LUixlnN_Fu45J {
   border-radius: var(--border-radius-2);
+}
+
+.control-button--active-dot:after {
+  border-radius: 4px;
+  display: block;
+  height: 4px;
+  width: 12px;
+  position: absolute;
 }
 
 /* dialogs */
@@ -1673,6 +1680,16 @@ option {
   margin-right: 8px;
 }
 
+.HxHEP8jIbqr1abwdA4bJ:focus,
+.volume-bar__icon-button:focus {
+  color: var(--spice-subtext);
+}
+
+.HxHEP8jIbqr1abwdA4bJ:hover,
+.volume-bar__icon-button:hover {
+  color: var(--spice-text);
+}
+
 .main-playPauseButton-button,
 .player-controls__buttons button:not(.main-playPauseButton-button) {
   --button-size: 28px !important;
@@ -1815,6 +1832,11 @@ option {
   margin: 0;
 }
 
+/* lyrics */
+
+.fSKBdxsPEB5WUAJWTYlh {
+  background: linear-gradient(180deg, var(--lyrics-color-background), var(--spice-main));
+}
 
 /* spicetify */
 
@@ -1825,14 +1847,6 @@ option {
 
 #spicetify-show-list >* {
   padding: 0px;
-}
-
-/* spicetify extensions */
-
-.main-topBar-button[title="Popup Lyrics"],
-.main-topBar-button[title="Full App Display"],
-.main-topBar-button[title="Bookmark"] {
-  background-color: var(--spice-card) !important;
 }
 
 /* Context menu upgrade button */
