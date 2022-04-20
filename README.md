@@ -2,8 +2,6 @@
 
 A fluent theme based on theme by williamckha
 
-![preview](https://github.com/bathtimethiago/fluent-for-spicetify/blob/main/preview.png)
-
 
 / FEATURES /
 
