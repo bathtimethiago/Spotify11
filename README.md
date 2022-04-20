@@ -22,3 +22,5 @@ A fluent theme based on theme by williamckha
     spicetify config current_theme Fluent
 spicetify config color_scheme dark
 spicetify apply
+
+    texte
