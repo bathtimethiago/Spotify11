@@ -17,4 +17,8 @@ A fluent theme based on theme by williamckha
 
 1. Download the files
 2. Cut and paste into the .spicetify folder
-3. Open Terminal and exec spicetify apply
+3. Open Terminal and exec the commands below
+
+spicetify config current_theme Fluent
+spicetify config color_scheme dark
+spicetify apply
