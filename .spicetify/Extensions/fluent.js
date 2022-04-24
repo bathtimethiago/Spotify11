@@ -1,4 +1,4 @@
-(function fluent() {
+(function spotify11() {
 
   function waitForElement(els, func, timeout = 10000) {
     const queries = els.map(el => document.querySelector(el));
@@ -139,13 +139,13 @@
     Spicetify.Platform.AdManagers.billboard.displayBillboard = function (arguments) {
         Spicetify.Platform.AdManagers.billboard.finish()
         var ret = billboard.apply(this, arguments);
-        console.log("fluent.js: Billboard blocked!")
+        console.log("spotify11.js: Billboard blocked!")
         Spicetify.Platform.AdManagers.billboard.finish()
         setTimeout(() => { Spicetify.Platform.AdManagers.billboard.finish(); }, 2000);
         return ret;
     };
     function delayAds() {
-        console.log("fluent.js: Ads delayed!")
+        console.log("spotify11.js: Ads delayed!")
         Spicetify.Platform.AdManagers.audio.audioApi.cosmosConnector.increaseStreamTime(-100000000000)
         Spicetify.Platform.AdManagers.billboard.billboardApi.cosmosConnector.increaseStreamTime(-100000000000)
     }
