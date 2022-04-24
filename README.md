@@ -1,4 +1,4 @@
-# Fluent for Spicetify BETA
+# Spotify 11 BETA
 
 A fluent theme based on theme by williamckha
 
