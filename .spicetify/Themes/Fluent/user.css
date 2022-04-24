@@ -545,21 +545,14 @@ button.switch {
 
 .fBTYgGyvIbHizHIj7AAX,
 .aAr9nYtPsG7P2LRzciXc {
-  background-color: var(--spice-main-button);
-  border-top: var(--spice-main-button-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-border) solid 1px !important;
-  border-right: var(--spice-main-button-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-border) solid 1px !important;
-  color: var(--spice-text);
+  border: none;
+  color: var(--spice-subtext);
 }
 
 .fBTYgGyvIbHizHIj7AAX:hover,
 .aAr9nYtPsG7P2LRzciXc:hover {
-  background-color: var(--spice-main-button-active);
-  border-top: var(--spice-main-button-active-border-top) solid 1px !important;
-  border-left: var(--spice-main-button-active-border) solid 1px !important;
-  border-right: var(--spice-main-button-active-border) solid 1px !important;
-  border-bottom: var(--spice-main-button-active-border) solid 1px !important;
+  border-radius: var(--border-radius-2);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
 }
 
 .zHeo4VUxytwm6Ptr0QyA,
@@ -567,6 +560,13 @@ button.switch {
 .uaw7z8qx62T3ewBrI3_D {
   background: none;
   color: var(--spice-text);
+}
+
+.zHeo4VUxytwm6Ptr0QyA:hover,
+.MQQEonum615k8mGkliT_:hover,
+.uaw7z8qx62T3ewBrI3_D:hover {
+  border-radius: var(--border-radius-2);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
 }
 
 .main-entityHeader-titleButton {
@@ -579,15 +579,9 @@ button.switch {
 }
 
 .x-carousel-button svg {
-  fill: var(--spice-text) !important;
+  fill: var(--spice-accent) !important;
 }
 
-.zHeo4VUxytwm6Ptr0QyA:hover,
-.MQQEonum615k8mGkliT_:hover,
-.uaw7z8qx62T3ewBrI3_D:hover {
-  border-radius: var(--border-radius-2);
-  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
-}
 
 /* sidebar */
 
@@ -1062,6 +1056,7 @@ a[class*='-tabBar-headerItemLink']:active {
   border-radius: var(--border-radius-2) !important;
   padding-right: 0px;
   padding-left: 12px;
+  transition: background-color ease-in 127ms;
 }
 
 .x-searchInput-searchInputInput:focus, 
@@ -1093,7 +1088,7 @@ a[class*='-tabBar-headerItemLink']:active {
 
 .x-searchInput-searchInputSearchIcon {
   -webkit-mask-image: url('./fluentui-system-icons/ic_fluent_search_16_regular.svg');
-  background-color: var(--spice-subtext) !important; 
+  background-color: var(--spice-subtext) !important;
   flex: 0;
   transform: scaleX(-1);
   height: 16px;
@@ -1108,22 +1103,22 @@ a[class*='-tabBar-headerItemLink']:active {
   margin-left: 5px;
   margin-right: 12px;
   height: 25px;
+  color: var(--spice-subtext) !important;
 }
 
-.x-searchInput-searchInputClearButton:focus {
-  color: var(--spice-accent) !important;
+.x-searchInput-searchInputClearButton:hover {
+  border-radius: var(--border-radius-2);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
 }
 
 .x-searchInput-searchInputClearButton path, 
 .g7ggq46CbOli19ZxJlQe .BDcKgSW_ys9_Hj2DwDBW path {
   display: block !important;
-  stroke: var(--spice-subtext) !important;
-  stroke-width: 1.3px;
 }
 
 .x-searchInput-searchInputClearButton svg, 
 .g7ggq46CbOli19ZxJlQe .BDcKgSW_ys9_Hj2DwDBW svg {
-  padding: 3px;
+  padding: 5px;
 }
 
 .x-searchResultsTracks-root .main-gridContainer-gridContainer {
@@ -1270,14 +1265,14 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 }
 
 .main-connectToFacebook-container {
-  margin-top: 50px;
+  display: none;
 }
 
 .main-connectToFacebook-text,
 .main-connectToFacebook-disclaimer,
 .main-connectToFacebook-headerTitle,
 .main-addFriendsView-headerText p {
-  color: var(--spice-text);
+  display: none;
 }
 
 .main-addFriendsView-header {
@@ -1334,12 +1329,11 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 
 .main-buddyFeed-buddyFeedRoot,
 .main-buddyFeed-buddyFeed {
+  padding-top: 12px;
+  margin-bottom: 18px;
+  background-color: var(--spice-main);
   width: 280px;
   z-index: 0;
-}
-
-.main-buddyFeed-buddyFeedRoot .main-avatar-avatar {
-  margin-right: 8px;
 }
 
 .main-buddyFeed-activityMetadata {
@@ -1399,7 +1393,7 @@ option {
 }
 
 .fybkl33QkYaa2Ftgo4na {
-  padding: 8px 8px 8px;
+  padding: 12px 2px 18px;
 }
 
 .connect-device-list-container {
