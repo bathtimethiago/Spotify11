@@ -8,11 +8,10 @@ if ($null -eq $checkSpice) {
 }
 
 $spicePath = spicetify -c | Split-Path
-$themePath = "$spicePath\Themes\Fluent"
+$themePath = "$spicePath\Themes\Spotify11"
 if (-not (Test-Path $themePath)) {
   New-Item -Path $themePath -ItemType Directory | Out-Null
 } else {
-  # Remove pre-existing files, only keep the newest files
   Remove-Item "$themePath\*" -Recurse -Force
 }
 
