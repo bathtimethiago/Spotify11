@@ -26,7 +26,7 @@ spicetify apply
 
 1. Open the .spicetify folder
 2. Open config-xpui.ini with notepad
-3. After any [] add the parameter:
+3. Add the parameter below:
 
  [Patch]\
  xpui.js_find_8008 = ,(\w+=)32,\
