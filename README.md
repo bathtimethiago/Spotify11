@@ -5,6 +5,7 @@ A fluent theme based on theme by williamckha
 
 \
 / IMPORTANT /
+
 The new version of spotify changed several parameters of the user.css, so it is necessary, while I work to update the theme, to download version 1.1.78.765 as it is the most recent and without corrections
 
 \
