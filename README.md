@@ -17,9 +17,13 @@ A fluent theme based on theme by williamckha
 3. Open Terminal and exec the commands below:
 
 spicetify config extensions spotify11.js
+
 spicetify config current_theme Spotify11
+
 spicetify config color_scheme dark
+
 spicetify apply
+
 
 / PATCHES /
 
@@ -29,4 +33,6 @@ spicetify apply
 
 [Patch]
 xpui.js_find_8008 = ,(\w+=)32,
+
 xpui.js_repl_8008 = ,${1}56,
+
