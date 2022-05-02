@@ -1,7 +1,7 @@
 # Spotify11 BETA
 A fluent theme based on theme by williamckha
 
-![preview]()
+![preview](https://github.com/bathtimethiago/Spotify11/blob/main/preview.png)
 
 / FEATURES /
 
