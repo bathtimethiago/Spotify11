@@ -9,7 +9,7 @@ A fluent theme based on theme by williamckha
 - Visual bugs fix
 - New most legit theme for W11
 - More customizable
-- 
+
 / INSTALLATION /
 
 1. Download the files
