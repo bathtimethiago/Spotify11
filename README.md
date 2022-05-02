@@ -1,4 +1,4 @@
-# Spotify 11 BETA
+# Spotify11 BETA
 A fluent theme based on theme by williamckha
 
 / FEATURES /
