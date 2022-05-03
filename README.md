@@ -1,4 +1,4 @@
-# Spotify11 BETA
+#                                 Spotify11 BETA
  A fluent theme based on Fluent UI of the new WIndows 11.
 
 ![preview](https://github.com/bathtimethiago/Spotify11/blob/main/preview.png)
