@@ -279,9 +279,10 @@ h3,
 .main-contextMenu-menu,
 ._60cb742e518d084c3c959007b9463b51-scss {
   border-radius: var(--border-radius-1);
-  border: 1px var(--spice-contextmenu-border) solid;
+  border: 1px solid rgba(var(--spice-rgb-contextmenu-border), 0.55);
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1) !important;
-  background-color: var(--spice-contextmenu);
+  background-color: rgba(var(--spice-rgb-contextmenu), 0.82);
+  backdrop-filter: blur(25px) !important;
 }
 
 .queue-tabBar-dropdownItemLink {
@@ -1228,6 +1229,22 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   padding-left: 2px;
 }
 
+.eSMjmiD29Ox35O95waw6:after,
+.eSMjmiD29Ox35O95waw6:before {
+ display: none;
+}
+
+.odcjv30UQnjaTv4sylc0:focus,
+.odcjv30UQnjaTv4sylc0:hover,
+.odcjv30UQnjaTv4sylc0[data-context-menu-open=true] {
+  background-color: var(--spice-text) !important;
+}
+
+ {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
 /* dialogs */
 
 .XwNfIrI6_hCa_9_T2cQB,
@@ -1342,24 +1359,15 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 
 /* settings */
 
-.main-dropDown-dropDown,
-option {
+.main-dropDown-dropDown {
   background-color: var(--spice-setting-list) !important;
   border: 1px solid var(--spice-setting-list-border) !important;
-  color: var(--spice-setting-list-text);
-}
-
-.main-dropDown-dropDown {
   border-radius: var(--border-radius-2) !important;
+  color: var(--spice-setting-list-text);
 }
 
 .x-toggle-indicator {
   background-color: var(--spice-setting-wrapper) !important;
-}
-
-.x-settings-facebookButton,
-.main-connectToFacebook-facebookButton {
-  color: var(--spice-shadow);
 }
 
 .x-toggle-indicatorWrapper {
@@ -1384,6 +1392,10 @@ option {
   border-bottom: var(--spice-accent) solid 2px;
 }
 
+.x-settings-facebookButton,
+.main-connectToFacebook-facebookButton {
+  color: var(--spice-text);
+}
 
 /* connect device menu */
 
@@ -1458,13 +1470,13 @@ option {
   width: calc(100% - 26px);
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2) !important;
   border-radius: var(--border-radius-1);
-  border: 1px solid var(--spice-player-border);
-  backdrop-filter: blur(120px);
+  border: 1px solid rgba(var(--spice-rgb-player-border), 0.55);
+  background-color: rgba(var(--spice-rgb-player), 0.82);
+  backdrop-filter: blur(25px) !important;
 }
 
 .main-nowPlayingBar-container {
-  background: rgba(44, 44, 44, 0.7);
-  border-radius: var(--border-radius-1);
+  background: none;
 }
 
 .gqeP9Y0_y6DLm4CD_m3Q {
