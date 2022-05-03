@@ -91,13 +91,14 @@
 }
 
 .main-rootlist-rootlistDivider,
-.main-contextMenu-dividerBefore::before,
-.main-contextMenu-dividerAfter::after,
-.show-episodeList-divider,
 .main-rootlist-rootlistDividerContainer {
   display: none;
 }
 
+.main-contextMenu-dividerBefore::before,
+.main-contextMenu-dividerAfter::after {
+  margin: 0px;
+}
 
 /* cards */
 
@@ -250,13 +251,36 @@ h3,
 
 /* menus */
 
+.main-contextMenu-menu,
+._60cb742e518d084c3c959007b9463b51-scss {
+  border-radius: var(--border-radius-1);
+  border: solid 1px rgba(var(--spice-rgb-contextmenu-border), 0.15) !important;
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(var(--spice-rgb-contextmenu), 0.82);
+  backdrop-filter: blur(25px) !important;
+}
+
 .main-contextMenu-menuItemButton,
 .main-userWidget-dropDownMenuItemButton {
-  border-radius: var(--border-radius-1);
   color: var(--spice-text) !important;
-  height: 32px;
+  height: 30px;
   padding-left: 8px;
 }
+
+.main-userWidget-dropDownMenuItemButton:hover,
+.main-contextMenu-menuItemButton:hover,
+.main-contextMenu-menuItem:hover {
+  border-radius: var(--border-radius-2);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
+}
+
+.main-userWidget-dropDownMenuItemButton:focus,
+.main-contextMenu-menuItemButton:focus,
+.main-contextMenu-menuItem:focus {
+  border-radius: var(--border-radius-2);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
+}
+
 
 .main-contextMenu-menuItem,
 ._60cb742e518d084c3c959007b9463b51-scss>li {
@@ -274,15 +298,6 @@ h3,
 
 ._60cb742e518d084c3c959007b9463b51-scss> :last-child {
   margin: 2px 6px 8px;
-}
-
-.main-contextMenu-menu,
-._60cb742e518d084c3c959007b9463b51-scss {
-  border-radius: var(--border-radius-1);
-  border: 1px solid rgba(var(--spice-rgb-contextmenu-border), 0.55);
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1) !important;
-  background-color: rgba(var(--spice-rgb-contextmenu), 0.82);
-  backdrop-filter: blur(25px) !important;
 }
 
 .queue-tabBar-dropdownItemLink {
@@ -393,6 +408,7 @@ h3,
 .main-collectionLinkButton-collectionLinkButton[href="/collection/tracks"] {
   background: linear-gradient(135deg,#450af5,#c4efd9) !important;
   border-radius: var(--border-radius-2);
+  display: none;
 }
 
 .main-collectionLinkButton-collectionLinkButton[href="/collection/episodes"] {
@@ -716,10 +732,11 @@ button.switch {
 }
 
 .main-rootlist-rootlist {
-  --left-sidebar-item-height: 52px;
+  --left-sidebar-item-height: 51px;
   --left-sidebar-padding-left: 16px;
   --left-sidebar-padding-right: 16px;
-  padding-bottom: 120px;  /* don't go below player controls */
+  padding-bottom: 80px;
+  bottom: 25px;
 }
 
 .main-rootlist-rootlistItemLink {
@@ -1156,7 +1173,7 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 /* modals */
 
 .GenericModal__overlay {
-  background-color: rgba(0, 0, 0, 0.6)
+  background-color: rgba(var(--spice-rgb-shadow), 0.4);
 }
 
 .kwe0I8sSNMv3gYBjkRYP {
@@ -1187,7 +1204,7 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
 .playlist-inlineSearchBox-filterInput {
   background-color: var(--spice-setting-button) !important;
   border-color: var(--spice-setting-button-border);
-  border-bottom: var(--spice-setting-button-border-bottom) solid 2px;
+  border-bottom: var(--spice-setting-button-border-bottom) solid 1px;
 }
 
 .dMhJaxli87_22jb_3d9x:focus,
@@ -1240,9 +1257,9 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   background-color: var(--spice-text) !important;
 }
 
- {
-  margin-top: 200px;
-  margin-bottom: 200px;
+.zGbjZMZ1DTx4futEbN9l,
+g4NoSm4nlTuArQvfAaDa {
+  color: var(--spice-subtext);
 }
 
 /* dialogs */
@@ -1379,7 +1396,7 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   border-radius: var(--border-radius-2) !important;
   background-color: var(--spice-setting-button) !important;
   border-color: var(--spice-setting-button-border);
-  border-bottom: var(--spice-setting-button-border-bottom) solid 2px;
+  border-bottom: var(--spice-setting-button-border-bottom) solid 1px;
 }
 
 .x-proxySettings-proxyInput::placeholder {
@@ -1468,11 +1485,10 @@ path[d="M23 0C10.298 0 0 10.297 0 23c0 12.702 10.298 23 23 23 12.703 0 23-10.298
   padding-right: 6px;
   margin: 0px 13px 13px 13px;
   width: calc(100% - 26px);
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1) !important;
   border-radius: var(--border-radius-1);
-  border: 1px solid rgba(var(--spice-rgb-player-border), 0.55);
   background-color: rgba(var(--spice-rgb-player), 0.82);
-  backdrop-filter: blur(25px) !important;
+  backdrop-filter: blur(25px) !important;a
 }
 
 .main-nowPlayingBar-container {
