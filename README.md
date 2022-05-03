@@ -48,4 +48,4 @@ xpui.js_repl_8008 = ,${1}56,
 
 / WILLIAMCKHA /
 
-The base file used was created by him
+The base file used was created by him, you can see more ![Here](https://github.com/williamckha/spicetify-fluent)
