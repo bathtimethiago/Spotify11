@@ -1,5 +1,14 @@
-# Spotify11 BETA
- A fluent theme based on Fluent UI of the new WIndows 11.
+<h1 align="center">
+  <br>
+  <img src="" alt="Omni Logo" width="100">
+  <br>
+  # Spotify11 BETA
+  <br>
+</h1>
+
+<p align="center">
+  <strong>A fluent theme based on Fluent UI of the new Windows 11.</strong>
+</p>
 
 ![preview](https://github.com/bathtimethiago/Spotify11/blob/main/preview.png)
 
@@ -24,12 +33,12 @@
 3. Open Terminal and exec the commands below:
 
 ```
-spicetify config experimental_features 0\
-spicetify config home_config 0\
-spicetify config sidebar_config 0\
-spicetify config extensions spotify11.js\
-spicetify config current_theme Spotify11\
-spicetify config color_scheme dark\
+spicetify config experimental_features 0
+spicetify config home_config 0
+spicetify config sidebar_config 0
+spicetify config extensions spotify11.js
+spicetify config current_theme Spotify11
+spicetify config color_scheme dark
 spicetify apply
 ```
 
@@ -41,8 +50,8 @@ spicetify apply
 3. Add the parameter below:
 
 ```
-[Patch]\
-xpui.js_find_8008 = ,(\w+=)32,\
+[Patch]
+xpui.js_find_8008 = ,(\w+=)32,
 xpui.js_repl_8008 = ,${1}56,
 ```
 
