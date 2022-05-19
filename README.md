@@ -55,10 +55,7 @@ xpui.js_repl_8008 = ,${1}56,
 
 4. Save and apply with "spicetify apply"
 
-| [![bathtimethiago](https://scontent-gig2-1.cdninstagram.com/v/t51.2885-19/279013854_1315947925590886_223564210228458333_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-gig2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=h-a7Q5h4LukAX-wIiCY&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT-UvqdB2NmQ--7QsLLDsptJcTXSaTP2EPEVKDL8eSpOFQ&oe=628C4787&_nc_sid=7bff83)](https://github.com/bathtimethiago) |
-| ----------------------------------------------------------------------------------------------- |
-| [bathtimethiago](https://github.com/bathtimethiago)                                                  |
-
+\
 ## Credits
 
 / WILLIAMCKHA /
