@@ -40,9 +40,11 @@ spicetify apply
 2. Open config-xpui.ini with notepad
 3. Add the parameter below:
 
+```
 [Patch]\
 xpui.js_find_8008 = ,(\w+=)32,\
 xpui.js_repl_8008 = ,${1}56,
+```
 
 4. Save and apply with "spicetify apply"
 
