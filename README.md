@@ -21,7 +21,7 @@
 / FEATURES /
 
 - Premium ads block
-- Visual bugs fix
+- Visual bugs fixes
 - New most legit theme for W11
 - More customizable
 
