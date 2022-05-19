@@ -26,7 +26,8 @@
 - New most legit theme for W11
 - More customizable
 
-\
+## Steps
+
 / INSTALLATION /
 
 1. Download the files
