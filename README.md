@@ -12,7 +12,8 @@
   <img src="https://github.com/bathtimethiago/Spotify11/blob/main/preview.png"/>
 </p>
 
-\
+## Infos
+
 / IMPORTANT /
 
  The new version of spotify changed several parameters of the user.css, so it is necessary, while I work to update the theme, to download version 1.1.78.765 as it is the most recent and unchanged
