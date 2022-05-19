@@ -55,7 +55,7 @@ xpui.js_repl_8008 = ,${1}56,
 
 4. Save and apply with "spicetify apply"
 
-\
+
 ## Credits
 
 / WILLIAMCKHA /
