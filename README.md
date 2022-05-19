@@ -1,7 +1,5 @@
 <h1 align="center">
   <br>
-  <img src="" alt="Omni Logo" width="100">
-  <br>
   # Spotify11 BETA
   <br>
 </h1>
