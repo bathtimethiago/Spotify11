@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  # Spotify11 BETA
+  Spotify11 BETA
   <br>
 </h1>
 
