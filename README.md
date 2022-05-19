@@ -33,9 +33,6 @@
 3. Open Terminal and exec the commands below:
 
 ```
-spicetify config experimental_features 0
-spicetify config home_config 0
-spicetify config sidebar_config 0
 spicetify config overwrite_assets 1
 spicetify config extensions spotify11.js
 spicetify config current_theme Spotify11
