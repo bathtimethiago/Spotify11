@@ -18,8 +18,8 @@
 
  The new version of spotify changed several parameters of the user.css, so it is necessary, while I work to update the theme, to download version 1.1.78.765 as it is the most recent and unchanged
  
- href="https://spotify.br.uptodown.com/windows/download/4431137">Windows</a>
- href="https://spotify.br.uptodown.com/mac/download/4431129">macOS</a>
+ <a href="https://spotify.br.uptodown.com/windows/download/4431137">Windows</a>
+ <a href="https://spotify.br.uptodown.com/mac/download/4431129">macOS</a>
 
 \
 / FEATURES /
