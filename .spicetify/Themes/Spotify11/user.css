@@ -234,10 +234,10 @@ h3,
 .JdlKTdpMquftpMwwegZo {
   background-color: var(--spice-tab);
   border: 1px solid var(--spice-tab-border);
-  border-bottom-right-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  border-top-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
   height: 30px;
   width: calc(100% + -8px);
   margin-top: 70px;
@@ -264,16 +264,16 @@ h3,
   margin-left: 60px;
   background-color: var(--spice-text) !important;
   padding: 5px;
-  width: 24px !important;
-  height: 24px !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .main-topBar-historyButtons button:nth-child(2) {
   -webkit-mask-image: url('./fluentui-system-icons/ic_fluent_arrow_right_24_filled.svg');
   background-color: var(--spice-text) !important;
   padding: 5px;
-  width: 24px !important;
-  height: 24px !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .main-userWidget-displayName,
@@ -292,25 +292,27 @@ h3,
   backdrop-filter: blur(25px) !important;
 }
 
-.main-contextMenu-menuItemButton,
+.queue-tabBar-dropdownItemLink,
 .main-userWidget-dropDownMenuItemButton {
+  display: none;
+}
+
+.main-contextMenu-menuItemButton {
   color: var(--spice-text) !important;
   height: 30px;
   padding-left: 6px;
 }
 
-.main-userWidget-dropDownMenuItemButton:hover,
 .main-contextMenu-menuItemButton:hover,
 .main-contextMenu-menuItem:hover {
   border-radius: var(--border-radius-2);
-  background-color: rgba(var(--spice-rgb-selected-row), 0.3);
+  background-color: rgba(110, 110, 110, 0.1);
 }
 
-.main-userWidget-dropDownMenuItemButton:focus,
 .main-contextMenu-menuItemButton:focus,
 .main-contextMenu-menuItem:focus {
   border-radius: var(--border-radius-2);
-  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
+  background-color: rgba(var(--spice-rgb-selected-row), 0.8);
 }
 
 .main-contextMenu-menuItem,
@@ -329,10 +331,6 @@ h3,
 
 ._60cb742e518d084c3c959007b9463b51-scss> :last-child {
   margin: 2px 6px 8px;
-}
-
-.queue-tabBar-dropdownItemLink {
-  color: var(--spice-text) !important;
 }
 
 
@@ -606,15 +604,7 @@ button.switch {
 .zHeo4VUxytwm6Ptr0QyA,
 .MQQEonum615k8mGkliT_,
 .uaw7z8qx62T3ewBrI3_D {
-  background: none;
-  color: var(--spice-text);
-}
-
-.zHeo4VUxytwm6Ptr0QyA:hover,
-.MQQEonum615k8mGkliT_:hover,
-.uaw7z8qx62T3ewBrI3_D:hover {
-  border-radius: var(--border-radius-2);
-  background-color: rgba(var(--spice-rgb-selected-row), 0.5);
+  display: none;
 }
 
 .main-entityHeader-titleButton {
@@ -654,7 +644,7 @@ button.switch {
   height: 100vh;
   margin-left: -1px;
   z-index: 1;
-  border-top-left-radius: var(--border-radius-2);
+  border-top-left-radius: var(--border-radius-1);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -1436,7 +1426,7 @@ input:checked:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
   border-radius: var(--border-radius-1);
   border: solid 1px rgba(var(--spice-rgb-contextmenu-border), 0.15) !important;
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1) !important;
-  background-color: rgba(var(--spice-rgb-contextmenu), 1.0);
+  background-color: rgba(var(--spice-rgb-contextmenu), 0.8);
   backdrop-filter: blur(25px) !important;
 }
 
@@ -1900,6 +1890,9 @@ input:checked:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
   -webkit-mask-image: url('./fluentui-system-icons/ic_fluent_play_24_filled.svg');
 }
 
+.Button-qlcn5g-0 {
+  display: none;
+}
 
 /* error content */
 
